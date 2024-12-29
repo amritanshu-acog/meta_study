@@ -1,0 +1,1962 @@
+[
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "B cell",
+    "cell_count_control": 2966,
+    "cell_count_disease": 2557.0,
+    "cell_count_per_change": -13.79,
+    "cell_prop_control": 15.02,
+    "cell_prop_disease": 12.59
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 6536,
+    "cell_count_disease": 6766.0,
+    "cell_count_per_change": 3.52,
+    "cell_prop_control": 33.11,
+    "cell_prop_disease": 33.3
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 3429,
+    "cell_count_disease": 3411.0,
+    "cell_count_per_change": -0.52,
+    "cell_prop_control": 17.37,
+    "cell_prop_disease": 16.79
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 222,
+    "cell_count_disease": 400.0,
+    "cell_count_per_change": 80.18,
+    "cell_prop_control": 1.12,
+    "cell_prop_disease": 1.97
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2747,
+    "cell_count_disease": 3433.0,
+    "cell_count_per_change": 24.97,
+    "cell_prop_control": 13.91,
+    "cell_prop_disease": 16.9
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "NK cell",
+    "cell_count_control": 1878,
+    "cell_count_disease": 1881.0,
+    "cell_count_per_change": 0.16,
+    "cell_prop_control": 9.51,
+    "cell_prop_disease": 9.26
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "Other T cell",
+    "cell_count_control": 1848,
+    "cell_count_disease": 1740.0,
+    "cell_count_per_change": -5.84,
+    "cell_prop_control": 9.36,
+    "cell_prop_disease": 8.56
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "Others",
+    "cell_count_control": 117,
+    "cell_count_disease": 129.0,
+    "cell_count_per_change": 10.26,
+    "cell_prop_control": 0.59,
+    "cell_prop_disease": 0.63
+  },
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "JD-32-178",
+    "cell_type": "T cell",
+    "cell_count_control": 11813,
+    "cell_count_disease": 11917.0,
+    "cell_count_per_change": 0.88,
+    "cell_prop_control": 59.83,
+    "cell_prop_disease": 58.66
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "B cell",
+    "cell_count_control": 1370,
+    "cell_count_disease": 1186.0,
+    "cell_count_per_change": -13.43,
+    "cell_prop_control": 6.32,
+    "cell_prop_disease": 4.75
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 8497,
+    "cell_count_disease": 8816.0,
+    "cell_count_per_change": 3.75,
+    "cell_prop_control": 39.18,
+    "cell_prop_disease": 35.29
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 3946,
+    "cell_count_disease": 3731.0,
+    "cell_count_per_change": -5.45,
+    "cell_prop_control": 18.19,
+    "cell_prop_disease": 14.94
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 84,
+    "cell_count_disease": 42.0,
+    "cell_count_per_change": -50.0,
+    "cell_prop_control": 0.39,
+    "cell_prop_disease": 0.17
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "Monocyte",
+    "cell_count_control": 3476,
+    "cell_count_disease": 5072.0,
+    "cell_count_per_change": 45.91,
+    "cell_prop_control": 16.03,
+    "cell_prop_disease": 20.3
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "NK cell",
+    "cell_count_control": 3487,
+    "cell_count_disease": 2227.0,
+    "cell_count_per_change": -36.13,
+    "cell_prop_control": 16.08,
+    "cell_prop_disease": 8.92
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "Others",
+    "cell_count_control": 155,
+    "cell_count_disease": 3369.0,
+    "cell_count_per_change": 2073.55,
+    "cell_prop_control": 0.71,
+    "cell_prop_disease": 13.49
+  },
+  {
+    "study_id": "KD-32-165-GSE211783",
+    "study_name": "KD-32-165",
+    "cell_type": "T cell",
+    "cell_count_control": 13116,
+    "cell_count_disease": 13084.0,
+    "cell_count_per_change": -0.24,
+    "cell_prop_control": 60.48,
+    "cell_prop_disease": 52.38
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "B cell",
+    "cell_count_control": 1190,
+    "cell_count_disease": 1813.0,
+    "cell_count_per_change": 52.35,
+    "cell_prop_control": 8.04,
+    "cell_prop_disease": 7.25
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 6608,
+    "cell_count_disease": 10950.0,
+    "cell_count_per_change": 65.71,
+    "cell_prop_control": 44.65,
+    "cell_prop_disease": 43.8
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 1963,
+    "cell_count_disease": 6255.0,
+    "cell_count_per_change": 218.64,
+    "cell_prop_control": 13.27,
+    "cell_prop_disease": 25.02
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 79,
+    "cell_count_disease": 150.0,
+    "cell_count_per_change": 89.87,
+    "cell_prop_control": 0.53,
+    "cell_prop_disease": 0.6
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2607,
+    "cell_count_disease": 2162.0,
+    "cell_count_per_change": -17.07,
+    "cell_prop_control": 17.62,
+    "cell_prop_disease": 8.65
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "NK cell",
+    "cell_count_control": 1469,
+    "cell_count_disease": 2744.0,
+    "cell_count_per_change": 86.79,
+    "cell_prop_control": 9.93,
+    "cell_prop_disease": 10.98
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "Others",
+    "cell_count_control": 348,
+    "cell_count_disease": 481.0,
+    "cell_count_per_change": 38.22,
+    "cell_prop_control": 2.35,
+    "cell_prop_disease": 1.92
+  },
+  {
+    "study_id": "IDD_MP-39-115-GSE194078",
+    "study_name": "MP-39-115",
+    "cell_type": "T cell",
+    "cell_count_control": 9105,
+    "cell_count_disease": 17649.0,
+    "cell_count_per_change": 93.84,
+    "cell_prop_control": 61.53,
+    "cell_prop_disease": 70.6
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "B cell",
+    "cell_count_control": 1188,
+    "cell_count_disease": 2265.0,
+    "cell_count_per_change": 90.66,
+    "cell_prop_control": 8.03,
+    "cell_prop_disease": 4.41
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 6509,
+    "cell_count_disease": 20779.0,
+    "cell_count_per_change": 219.23,
+    "cell_prop_control": 43.99,
+    "cell_prop_disease": 40.43
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 2045,
+    "cell_count_disease": 10037.0,
+    "cell_count_per_change": 390.81,
+    "cell_prop_control": 13.82,
+    "cell_prop_disease": 19.53
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 79,
+    "cell_count_disease": 154.0,
+    "cell_count_per_change": 94.94,
+    "cell_prop_control": 0.53,
+    "cell_prop_disease": 0.3
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2634,
+    "cell_count_disease": 6850.0,
+    "cell_count_per_change": 160.06,
+    "cell_prop_control": 17.8,
+    "cell_prop_disease": 13.33
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "NK cell",
+    "cell_count_control": 1496,
+    "cell_count_disease": 8162.0,
+    "cell_count_per_change": 445.59,
+    "cell_prop_control": 10.11,
+    "cell_prop_disease": 15.88
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "Others",
+    "cell_count_control": 293,
+    "cell_count_disease": 1793.0,
+    "cell_count_per_change": 511.95,
+    "cell_prop_control": 1.98,
+    "cell_prop_disease": 3.49
+  },
+  {
+    "study_id": "IDD_ab-GSE194078",
+    "study_name": "SLE-32-234",
+    "cell_type": "T cell",
+    "cell_count_control": 9108,
+    "cell_count_disease": 32177.0,
+    "cell_count_per_change": 253.28,
+    "cell_prop_control": 61.55,
+    "cell_prop_disease": 62.6
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "B cell",
+    "cell_count_control": 2288,
+    "cell_count_disease": 5384.0,
+    "cell_count_per_change": 135.31,
+    "cell_prop_control": 5.8,
+    "cell_prop_disease": 14.35
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 24220,
+    "cell_count_disease": 16746.0,
+    "cell_count_per_change": -30.86,
+    "cell_prop_control": 61.38,
+    "cell_prop_disease": 44.65
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 5020,
+    "cell_count_disease": 3835.0,
+    "cell_count_per_change": -23.61,
+    "cell_prop_control": 12.72,
+    "cell_prop_disease": 10.22
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 75,
+    "cell_count_disease": 202.0,
+    "cell_count_per_change": 169.33,
+    "cell_prop_control": 0.19,
+    "cell_prop_disease": 0.54
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2154,
+    "cell_count_disease": 2986.0,
+    "cell_count_per_change": 38.63,
+    "cell_prop_control": 5.46,
+    "cell_prop_disease": 7.96
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "NK cell",
+    "cell_count_control": 3157,
+    "cell_count_disease": 5016.0,
+    "cell_count_per_change": 58.89,
+    "cell_prop_control": 8.0,
+    "cell_prop_disease": 13.37
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "Others",
+    "cell_count_control": 1694,
+    "cell_count_disease": 1723.0,
+    "cell_count_per_change": 1.71,
+    "cell_prop_control": 4.29,
+    "cell_prop_disease": 4.59
+  },
+  {
+    "study_id": "INS-GSE233275",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "T cell",
+    "cell_count_control": 30094,
+    "cell_count_disease": 22198.0,
+    "cell_count_per_change": -26.24,
+    "cell_prop_control": 76.26,
+    "cell_prop_disease": 59.18
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "B cell",
+    "cell_count_control": 2974,
+    "cell_count_disease": 2382.0,
+    "cell_count_per_change": -19.91,
+    "cell_prop_control": 19.23,
+    "cell_prop_disease": 22.76
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 5126,
+    "cell_count_disease": 5333.0,
+    "cell_count_per_change": 4.04,
+    "cell_prop_control": 33.15,
+    "cell_prop_disease": 50.96
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 4160,
+    "cell_count_disease": 769.0,
+    "cell_count_per_change": -81.51,
+    "cell_prop_control": 26.9,
+    "cell_prop_disease": 7.35
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 120,
+    "cell_count_disease": 156.0,
+    "cell_count_per_change": 30.0,
+    "cell_prop_control": 0.78,
+    "cell_prop_disease": 1.49
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "Monocyte",
+    "cell_count_control": 970,
+    "cell_count_disease": 1490.0,
+    "cell_count_per_change": 53.61,
+    "cell_prop_control": 6.27,
+    "cell_prop_disease": 14.24
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "NK cell",
+    "cell_count_control": 1513,
+    "cell_count_disease": 324.0,
+    "cell_count_per_change": -78.59,
+    "cell_prop_control": 9.78,
+    "cell_prop_disease": 3.1
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "Other T cell",
+    "cell_count_control": 413,
+    "cell_count_disease": 0.0,
+    "cell_count_per_change": -100.0,
+    "cell_prop_control": 2.67,
+    "cell_prop_disease": 0.0
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "Others",
+    "cell_count_control": 189,
+    "cell_count_disease": 12.0,
+    "cell_count_per_change": -93.65,
+    "cell_prop_control": 1.22,
+    "cell_prop_disease": 0.11
+  },
+  {
+    "study_id": "JDM-GSE190684",
+    "study_name": "JDM",
+    "cell_type": "T cell",
+    "cell_count_control": 9699,
+    "cell_count_disease": 6102.0,
+    "cell_count_per_change": -37.09,
+    "cell_prop_control": 62.72,
+    "cell_prop_disease": 58.3
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "B cell",
+    "cell_count_control": 2974,
+    "cell_count_disease": 10042.0,
+    "cell_count_per_change": 237.66,
+    "cell_prop_control": 19.23,
+    "cell_prop_disease": 30.94
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 5126,
+    "cell_count_disease": 9406.0,
+    "cell_count_per_change": 83.5,
+    "cell_prop_control": 33.15,
+    "cell_prop_disease": 28.98
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 4160,
+    "cell_count_disease": 5214.0,
+    "cell_count_per_change": 25.34,
+    "cell_prop_control": 26.9,
+    "cell_prop_disease": 16.06
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 120,
+    "cell_count_disease": 105.0,
+    "cell_count_per_change": -12.5,
+    "cell_prop_control": 0.78,
+    "cell_prop_disease": 0.32
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "Monocyte",
+    "cell_count_control": 970,
+    "cell_count_disease": 3688.0,
+    "cell_count_per_change": 280.21,
+    "cell_prop_control": 6.27,
+    "cell_prop_disease": 11.36
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "NK cell",
+    "cell_count_control": 1513,
+    "cell_count_disease": 1642.0,
+    "cell_count_per_change": 8.53,
+    "cell_prop_control": 9.78,
+    "cell_prop_disease": 5.06
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "Other T cell",
+    "cell_count_control": 413,
+    "cell_count_disease": 497.0,
+    "cell_count_per_change": 20.34,
+    "cell_prop_control": 2.67,
+    "cell_prop_disease": 1.53
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "Others",
+    "cell_count_control": 189,
+    "cell_count_disease": 1866.0,
+    "cell_count_per_change": 887.3,
+    "cell_prop_control": 1.22,
+    "cell_prop_disease": 5.75
+  },
+  {
+    "study_id": "KD1-GSE168732",
+    "study_name": "KD",
+    "cell_type": "T cell",
+    "cell_count_control": 9699,
+    "cell_count_disease": 15117.0,
+    "cell_count_per_change": 55.86,
+    "cell_prop_control": 62.72,
+    "cell_prop_disease": 46.57
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "B cell",
+    "cell_count_control": 10042,
+    "cell_count_disease": 10463.0,
+    "cell_count_per_change": 4.19,
+    "cell_prop_control": 30.94,
+    "cell_prop_disease": 27.78
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 9406,
+    "cell_count_disease": 13286.0,
+    "cell_count_per_change": 41.25,
+    "cell_prop_control": 28.98,
+    "cell_prop_disease": 35.27
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 5214,
+    "cell_count_disease": 6111.0,
+    "cell_count_per_change": 17.2,
+    "cell_prop_control": 16.06,
+    "cell_prop_disease": 16.22
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 105,
+    "cell_count_disease": 122.0,
+    "cell_count_per_change": 16.19,
+    "cell_prop_control": 0.32,
+    "cell_prop_disease": 0.32
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "Monocyte",
+    "cell_count_control": 3688,
+    "cell_count_disease": 3244.0,
+    "cell_count_per_change": -12.04,
+    "cell_prop_control": 11.36,
+    "cell_prop_disease": 8.61
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "NK cell",
+    "cell_count_control": 1642,
+    "cell_count_disease": 2445.0,
+    "cell_count_per_change": 48.9,
+    "cell_prop_control": 5.06,
+    "cell_prop_disease": 6.49
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "Other T cell",
+    "cell_count_control": 497,
+    "cell_count_disease": 512.0,
+    "cell_count_per_change": 3.02,
+    "cell_prop_control": 1.53,
+    "cell_prop_disease": 1.36
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "Others",
+    "cell_count_control": 1866,
+    "cell_count_disease": 1485.0,
+    "cell_count_per_change": -20.42,
+    "cell_prop_control": 5.75,
+    "cell_prop_disease": 3.94
+  },
+  {
+    "study_id": "KD1-GSE168732_b_vs_a",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "T cell",
+    "cell_count_control": 15117,
+    "cell_count_disease": 19909.0,
+    "cell_count_per_change": 31.7,
+    "cell_prop_control": 46.57,
+    "cell_prop_disease": 52.85
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "B cell",
+    "cell_count_control": 1702,
+    "cell_count_disease": 2050.0,
+    "cell_count_per_change": 20.45,
+    "cell_prop_control": 15.47,
+    "cell_prop_disease": 14.4
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 5327,
+    "cell_count_disease": 3834.0,
+    "cell_count_per_change": -28.03,
+    "cell_prop_control": 48.42,
+    "cell_prop_disease": 26.93
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 1208,
+    "cell_count_disease": 1823.0,
+    "cell_count_per_change": 50.91,
+    "cell_prop_control": 10.98,
+    "cell_prop_disease": 12.81
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 89,
+    "cell_count_disease": 30.0,
+    "cell_count_per_change": -66.29,
+    "cell_prop_control": 0.81,
+    "cell_prop_disease": 0.21
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "Monocyte",
+    "cell_count_control": 1597,
+    "cell_count_disease": 4271.0,
+    "cell_count_per_change": 167.44,
+    "cell_prop_control": 14.52,
+    "cell_prop_disease": 30.0
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "NK cell",
+    "cell_count_control": 387,
+    "cell_count_disease": 788.0,
+    "cell_count_per_change": 103.62,
+    "cell_prop_control": 3.52,
+    "cell_prop_disease": 5.54
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "Other T cell",
+    "cell_count_control": 545,
+    "cell_count_disease": 524.0,
+    "cell_count_per_change": -3.85,
+    "cell_prop_control": 4.95,
+    "cell_prop_disease": 3.68
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "Others",
+    "cell_count_control": 40,
+    "cell_count_disease": 764.0,
+    "cell_count_per_change": 1810.0,
+    "cell_prop_control": 0.36,
+    "cell_prop_disease": 5.37
+  },
+  {
+    "study_id": "KD2-GSE200743",
+    "study_name": "KD 2",
+    "cell_type": "T cell",
+    "cell_count_control": 7187,
+    "cell_count_disease": 6333.0,
+    "cell_count_per_change": -11.88,
+    "cell_prop_control": 65.32,
+    "cell_prop_disease": 44.49
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 4482,
+    "cell_count_disease": 6796.0,
+    "cell_count_per_change": 51.63,
+    "cell_prop_control": 39.79,
+    "cell_prop_disease": 29.88
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 3063,
+    "cell_count_disease": 6597.0,
+    "cell_count_per_change": 115.38,
+    "cell_prop_control": 27.2,
+    "cell_prop_disease": 29.01
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2329,
+    "cell_count_disease": 3479.0,
+    "cell_count_per_change": 49.38,
+    "cell_prop_control": 20.68,
+    "cell_prop_disease": 15.3
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "NK cell",
+    "cell_count_control": 1036,
+    "cell_count_disease": 3174.0,
+    "cell_count_per_change": 206.37,
+    "cell_prop_control": 9.2,
+    "cell_prop_disease": 13.96
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "B cell",
+    "cell_count_control": 312,
+    "cell_count_disease": 2416.0,
+    "cell_count_per_change": 674.36,
+    "cell_prop_control": 2.77,
+    "cell_prop_disease": 10.62
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "Others",
+    "cell_count_control": 41,
+    "cell_count_disease": 281.0,
+    "cell_count_per_change": 585.37,
+    "cell_prop_control": 0.36,
+    "cell_prop_disease": 1.24
+  },
+  {
+    "study_id": "MDS-GSE216548",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "T cell",
+    "cell_count_control": 7545,
+    "cell_count_disease": 13393.0,
+    "cell_count_per_change": 77.51,
+    "cell_prop_control": 66.99,
+    "cell_prop_disease": 58.89
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "B cell",
+    "cell_count_control": 1950,
+    "cell_count_disease": 1307.0,
+    "cell_count_per_change": -32.97,
+    "cell_prop_control": 7.15,
+    "cell_prop_disease": 4.94
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 3708,
+    "cell_count_disease": 3632.0,
+    "cell_count_per_change": -2.05,
+    "cell_prop_control": 13.6,
+    "cell_prop_disease": 13.72
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 5237,
+    "cell_count_disease": 2219.0,
+    "cell_count_per_change": -57.63,
+    "cell_prop_control": 19.2,
+    "cell_prop_disease": 8.38
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 91,
+    "cell_count_disease": 82.0,
+    "cell_count_per_change": -9.89,
+    "cell_prop_control": 0.33,
+    "cell_prop_disease": 0.31
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "Monocyte",
+    "cell_count_control": 10410,
+    "cell_count_disease": 15931.0,
+    "cell_count_per_change": 53.04,
+    "cell_prop_control": 38.17,
+    "cell_prop_disease": 60.17
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "NK cell",
+    "cell_count_control": 3144,
+    "cell_count_disease": 2281.0,
+    "cell_count_per_change": -27.45,
+    "cell_prop_control": 11.53,
+    "cell_prop_disease": 8.62
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "Others",
+    "cell_count_control": 2732,
+    "cell_count_disease": 1024.0,
+    "cell_count_per_change": -62.52,
+    "cell_prop_control": 10.02,
+    "cell_prop_disease": 3.87
+  },
+  {
+    "study_id": "MG-GSE222427",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "T cell",
+    "cell_count_control": 8945,
+    "cell_count_disease": 5851.0,
+    "cell_count_per_change": -34.59,
+    "cell_prop_control": 32.8,
+    "cell_prop_disease": 22.1
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 26807,
+    "cell_count_disease": 28727.0,
+    "cell_count_per_change": 7.16,
+    "cell_prop_control": 32.71,
+    "cell_prop_disease": 29.11
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 14450,
+    "cell_count_disease": 14587.0,
+    "cell_count_per_change": 0.95,
+    "cell_prop_control": 17.63,
+    "cell_prop_disease": 14.78
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "NK cell",
+    "cell_count_control": 12162,
+    "cell_count_disease": 17151.0,
+    "cell_count_per_change": 41.02,
+    "cell_prop_control": 14.84,
+    "cell_prop_disease": 17.38
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "B cell",
+    "cell_count_control": 11601,
+    "cell_count_disease": 15211.0,
+    "cell_count_per_change": 31.12,
+    "cell_prop_control": 14.16,
+    "cell_prop_disease": 15.42
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "Monocyte",
+    "cell_count_control": 11147,
+    "cell_count_disease": 15119.0,
+    "cell_count_per_change": 35.63,
+    "cell_prop_control": 13.6,
+    "cell_prop_disease": 15.32
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "Other T cell",
+    "cell_count_control": 3598,
+    "cell_count_disease": 5025.0,
+    "cell_count_per_change": 39.66,
+    "cell_prop_control": 4.39,
+    "cell_prop_disease": 5.09
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "Others",
+    "cell_count_control": 867,
+    "cell_count_disease": 1200.0,
+    "cell_count_per_change": 38.41,
+    "cell_prop_control": 1.06,
+    "cell_prop_disease": 1.22
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 797,
+    "cell_count_disease": 1049.0,
+    "cell_count_per_change": 31.62,
+    "cell_prop_control": 0.97,
+    "cell_prop_disease": 1.06
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero+",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "T cell",
+    "cell_count_control": 45374,
+    "cell_count_disease": 48945.0,
+    "cell_count_per_change": 7.87,
+    "cell_prop_control": 55.37,
+    "cell_prop_disease": 49.6
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 26807,
+    "cell_count_disease": 28149.0,
+    "cell_count_per_change": 5.01,
+    "cell_prop_control": 32.71,
+    "cell_prop_disease": 27.78
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 14450,
+    "cell_count_disease": 15749.0,
+    "cell_count_per_change": 8.99,
+    "cell_prop_control": 17.63,
+    "cell_prop_disease": 15.54
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "NK cell",
+    "cell_count_control": 12162,
+    "cell_count_disease": 21482.0,
+    "cell_count_per_change": 76.63,
+    "cell_prop_control": 14.84,
+    "cell_prop_disease": 21.2
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "B cell",
+    "cell_count_control": 11601,
+    "cell_count_disease": 9259.0,
+    "cell_count_per_change": -20.19,
+    "cell_prop_control": 14.16,
+    "cell_prop_disease": 9.14
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "Monocyte",
+    "cell_count_control": 11147,
+    "cell_count_disease": 19334.0,
+    "cell_count_per_change": 73.45,
+    "cell_prop_control": 13.6,
+    "cell_prop_disease": 19.08
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "Other T cell",
+    "cell_count_control": 3598,
+    "cell_count_disease": 5301.0,
+    "cell_count_per_change": 47.33,
+    "cell_prop_control": 4.39,
+    "cell_prop_disease": 5.23
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "Others",
+    "cell_count_control": 867,
+    "cell_count_disease": 770.0,
+    "cell_count_per_change": -11.19,
+    "cell_prop_control": 1.06,
+    "cell_prop_disease": 0.76
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 797,
+    "cell_count_disease": 748.0,
+    "cell_count_per_change": -6.15,
+    "cell_prop_control": 0.97,
+    "cell_prop_disease": 0.74
+  },
+  {
+    "study_id": "MG-Takeda-Keio-sero-",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "T cell",
+    "cell_count_control": 45374,
+    "cell_count_disease": 49722.0,
+    "cell_count_per_change": 9.58,
+    "cell_prop_control": 55.37,
+    "cell_prop_disease": 49.08
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "B cell",
+    "cell_count_control": 3883,
+    "cell_count_disease": 4612.0,
+    "cell_count_per_change": 18.77,
+    "cell_prop_control": 10.24,
+    "cell_prop_disease": 8.59
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 9751,
+    "cell_count_disease": 11270.0,
+    "cell_count_per_change": 15.58,
+    "cell_prop_control": 25.7,
+    "cell_prop_disease": 20.98
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 8368,
+    "cell_count_disease": 10529.0,
+    "cell_count_per_change": 25.82,
+    "cell_prop_control": 22.06,
+    "cell_prop_disease": 19.6
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 709,
+    "cell_count_disease": 538.0,
+    "cell_count_per_change": -24.12,
+    "cell_prop_control": 1.87,
+    "cell_prop_disease": 1.0
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "Monocyte",
+    "cell_count_control": 9384,
+    "cell_count_disease": 19551.0,
+    "cell_count_per_change": 108.34,
+    "cell_prop_control": 24.74,
+    "cell_prop_disease": 36.4
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "NK cell",
+    "cell_count_control": 5337,
+    "cell_count_disease": 6544.0,
+    "cell_count_per_change": 22.62,
+    "cell_prop_control": 14.07,
+    "cell_prop_disease": 12.18
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "Others",
+    "cell_count_control": 504,
+    "cell_count_disease": 666.0,
+    "cell_count_per_change": 32.14,
+    "cell_prop_control": 1.33,
+    "cell_prop_disease": 1.24
+  },
+  {
+    "study_id": "MPA-E-GEAD-635",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "T cell",
+    "cell_count_control": 18119,
+    "cell_count_disease": 21799.0,
+    "cell_count_per_change": 20.31,
+    "cell_prop_control": 47.76,
+    "cell_prop_disease": 40.59
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "B cell",
+    "cell_count_control": 1220,
+    "cell_count_disease": 2438.0,
+    "cell_count_per_change": 99.84,
+    "cell_prop_control": 8.24,
+    "cell_prop_disease": 9.87
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 5543,
+    "cell_count_disease": 9000.0,
+    "cell_count_per_change": 62.37,
+    "cell_prop_control": 37.46,
+    "cell_prop_disease": 36.42
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 2312,
+    "cell_count_disease": 3733.0,
+    "cell_count_per_change": 61.46,
+    "cell_prop_control": 15.62,
+    "cell_prop_disease": 15.11
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 171,
+    "cell_count_disease": 300.0,
+    "cell_count_per_change": 75.44,
+    "cell_prop_control": 1.16,
+    "cell_prop_disease": 1.21
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2828,
+    "cell_count_disease": 4531.0,
+    "cell_count_per_change": 60.22,
+    "cell_prop_control": 19.11,
+    "cell_prop_disease": 18.34
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "NK cell",
+    "cell_count_control": 1217,
+    "cell_count_disease": 2556.0,
+    "cell_count_per_change": 110.02,
+    "cell_prop_control": 8.22,
+    "cell_prop_disease": 10.34
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "Other T cell",
+    "cell_count_control": 1239,
+    "cell_count_disease": 1737.0,
+    "cell_count_per_change": 40.19,
+    "cell_prop_control": 8.37,
+    "cell_prop_disease": 7.03
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "Others",
+    "cell_count_control": 122,
+    "cell_count_disease": 36.0,
+    "cell_count_per_change": -70.49,
+    "cell_prop_control": 0.82,
+    "cell_prop_disease": 0.15
+  },
+  {
+    "study_id": "MP-39-1152-GSE138266",
+    "study_name": "MP-39-1152",
+    "cell_type": "T cell",
+    "cell_count_control": 9240,
+    "cell_count_disease": 14851.0,
+    "cell_count_per_change": 60.73,
+    "cell_prop_control": 62.44,
+    "cell_prop_disease": 60.1
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "B cell",
+    "cell_count_control": 219,
+    "cell_count_disease": 717.0,
+    "cell_count_per_change": 227.4,
+    "cell_prop_control": 5.69,
+    "cell_prop_disease": 14.21
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 2122,
+    "cell_count_disease": 402.0,
+    "cell_count_per_change": -81.06,
+    "cell_prop_control": 55.17,
+    "cell_prop_disease": 7.97
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 975,
+    "cell_count_disease": 161.0,
+    "cell_count_per_change": -83.49,
+    "cell_prop_control": 25.35,
+    "cell_prop_disease": 3.19
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "Monocyte",
+    "cell_count_control": 138,
+    "cell_count_disease": 182.0,
+    "cell_count_per_change": 31.88,
+    "cell_prop_control": 3.59,
+    "cell_prop_disease": 3.61
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "NK cell",
+    "cell_count_control": 298,
+    "cell_count_disease": 16.0,
+    "cell_count_per_change": -94.63,
+    "cell_prop_control": 7.75,
+    "cell_prop_disease": 0.32
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "Others",
+    "cell_count_control": 94,
+    "cell_count_disease": 3568.0,
+    "cell_count_per_change": 3695.74,
+    "cell_prop_control": 2.44,
+    "cell_prop_disease": 70.71
+  },
+  {
+    "study_id": "SLE_2-GSE162577",
+    "study_name": "SLE 2",
+    "cell_type": "T cell",
+    "cell_count_control": 3097,
+    "cell_count_disease": 563.0,
+    "cell_count_per_change": -81.82,
+    "cell_prop_control": 80.53,
+    "cell_prop_disease": 11.16
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 22662,
+    "cell_count_disease": 15190.0,
+    "cell_count_per_change": -32.97,
+    "cell_prop_control": 55.12,
+    "cell_prop_disease": 44.25
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "Monocyte",
+    "cell_count_control": 6761,
+    "cell_count_disease": 9842.0,
+    "cell_count_per_change": 45.57,
+    "cell_prop_control": 16.45,
+    "cell_prop_disease": 28.67
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "Other T cell",
+    "cell_count_control": 5416,
+    "cell_count_disease": 5455.0,
+    "cell_count_per_change": 0.72,
+    "cell_prop_control": 13.17,
+    "cell_prop_disease": 15.89
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "NK cell",
+    "cell_count_control": 3112,
+    "cell_count_disease": 2197.0,
+    "cell_count_per_change": -29.4,
+    "cell_prop_control": 7.57,
+    "cell_prop_disease": 6.4
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "B cell",
+    "cell_count_control": 2326,
+    "cell_count_disease": 915.0,
+    "cell_count_per_change": -60.66,
+    "cell_prop_control": 5.66,
+    "cell_prop_disease": 2.67
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 628,
+    "cell_count_disease": 485.0,
+    "cell_count_per_change": -22.77,
+    "cell_prop_control": 1.53,
+    "cell_prop_disease": 1.41
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 207,
+    "cell_count_disease": 242.0,
+    "cell_count_per_change": 16.91,
+    "cell_prop_control": 0.5,
+    "cell_prop_disease": 0.71
+  },
+  {
+    "study_id": "SLE_Adult-GSE135779",
+    "study_name": "SLE(adult)",
+    "cell_type": "T cell",
+    "cell_count_control": 28285,
+    "cell_count_disease": 20887.0,
+    "cell_count_per_change": -26.16,
+    "cell_prop_control": 68.8,
+    "cell_prop_disease": 60.85
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "B cell",
+    "cell_count_control": 9876,
+    "cell_count_disease": 20924.0,
+    "cell_count_per_change": 111.87,
+    "cell_prop_control": 11.73,
+    "cell_prop_disease": 10.85
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 47277,
+    "cell_count_disease": 91484.0,
+    "cell_count_per_change": 93.51,
+    "cell_prop_control": 56.17,
+    "cell_prop_disease": 47.43
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 597,
+    "cell_count_disease": 1622.0,
+    "cell_count_per_change": 171.69,
+    "cell_prop_control": 0.71,
+    "cell_prop_disease": 0.84
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 1118,
+    "cell_count_disease": 2025.0,
+    "cell_count_per_change": 81.13,
+    "cell_prop_control": 1.33,
+    "cell_prop_disease": 1.05
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "Monocyte",
+    "cell_count_control": 9231,
+    "cell_count_disease": 45632.0,
+    "cell_count_per_change": 394.33,
+    "cell_prop_control": 10.97,
+    "cell_prop_disease": 23.66
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "NK cell",
+    "cell_count_control": 6732,
+    "cell_count_disease": 10013.0,
+    "cell_count_per_change": 48.74,
+    "cell_prop_control": 8.0,
+    "cell_prop_disease": 5.19
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "Other T cell",
+    "cell_count_control": 9339,
+    "cell_count_disease": 21185.0,
+    "cell_count_per_change": 126.84,
+    "cell_prop_control": 11.1,
+    "cell_prop_disease": 10.98
+  },
+  {
+    "study_id": "SLE_Child-GSE135779",
+    "study_name": "SLE(children)",
+    "cell_type": "T cell",
+    "cell_count_control": 57213,
+    "cell_count_disease": 114291.0,
+    "cell_count_per_change": 99.76,
+    "cell_prop_control": 67.97,
+    "cell_prop_disease": 59.25
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "B cell",
+    "cell_count_control": 1287,
+    "cell_count_disease": 2008.0,
+    "cell_count_per_change": 56.02,
+    "cell_prop_control": 4.83,
+    "cell_prop_disease": 6.92
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 9017,
+    "cell_count_disease": 8475.0,
+    "cell_count_per_change": -6.01,
+    "cell_prop_control": 33.83,
+    "cell_prop_disease": 29.19
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 7013,
+    "cell_count_disease": 6400.0,
+    "cell_count_per_change": -8.74,
+    "cell_prop_control": 26.31,
+    "cell_prop_disease": 22.04
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 307,
+    "cell_count_disease": 314.0,
+    "cell_count_per_change": 2.28,
+    "cell_prop_control": 1.15,
+    "cell_prop_disease": 1.08
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "Monocyte",
+    "cell_count_control": 3026,
+    "cell_count_disease": 3692.0,
+    "cell_count_per_change": 22.01,
+    "cell_prop_control": 11.35,
+    "cell_prop_disease": 12.71
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "NK cell",
+    "cell_count_control": 3632,
+    "cell_count_disease": 6175.0,
+    "cell_count_per_change": 70.02,
+    "cell_prop_control": 13.63,
+    "cell_prop_disease": 21.27
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "Other T cell",
+    "cell_count_control": 2168,
+    "cell_count_disease": 1807.0,
+    "cell_count_per_change": -16.65,
+    "cell_prop_control": 8.13,
+    "cell_prop_disease": 6.22
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "Others",
+    "cell_count_control": 205,
+    "cell_count_disease": 167.0,
+    "cell_count_per_change": -18.54,
+    "cell_prop_control": 0.77,
+    "cell_prop_disease": 0.58
+  },
+  {
+    "study_id": "SS-GSE157278",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "T cell",
+    "cell_count_control": 18198,
+    "cell_count_disease": 16682.0,
+    "cell_count_per_change": -8.33,
+    "cell_prop_control": 68.27,
+    "cell_prop_disease": 57.45
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "B cell",
+    "cell_count_control": 311,
+    "cell_count_disease": 1407.0,
+    "cell_count_per_change": 352.41,
+    "cell_prop_control": 8.22,
+    "cell_prop_disease": 7.15
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 2072,
+    "cell_count_disease": 7640.0,
+    "cell_count_per_change": 268.73,
+    "cell_prop_control": 54.79,
+    "cell_prop_disease": 38.81
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 457,
+    "cell_count_disease": 2990.0,
+    "cell_count_per_change": 554.27,
+    "cell_prop_control": 12.08,
+    "cell_prop_disease": 15.19
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 48,
+    "cell_count_disease": 195.0,
+    "cell_count_per_change": 306.25,
+    "cell_prop_control": 1.27,
+    "cell_prop_disease": 0.99
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "Monocyte",
+    "cell_count_control": 441,
+    "cell_count_disease": 2991.0,
+    "cell_count_per_change": 578.23,
+    "cell_prop_control": 11.66,
+    "cell_prop_disease": 15.19
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "NK cell",
+    "cell_count_control": 428,
+    "cell_count_disease": 4326.0,
+    "cell_count_per_change": 910.75,
+    "cell_prop_control": 11.32,
+    "cell_prop_disease": 21.98
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "Others",
+    "cell_count_control": 25,
+    "cell_count_disease": 137.0,
+    "cell_count_per_change": 448.0,
+    "cell_prop_control": 0.66,
+    "cell_prop_disease": 0.7
+  },
+  {
+    "study_id": "Sarc-GSE132338",
+    "study_name": "Sarcoidosis",
+    "cell_type": "T cell",
+    "cell_count_control": 2529,
+    "cell_count_disease": 10630.0,
+    "cell_count_per_change": 320.32,
+    "cell_prop_control": 66.87,
+    "cell_prop_disease": 54.0
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "B cell",
+    "cell_count_control": 312,
+    "cell_count_disease": 1386.0,
+    "cell_count_per_change": 344.23,
+    "cell_prop_control": 2.77,
+    "cell_prop_disease": 10.96
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 4482,
+    "cell_count_disease": 7718.0,
+    "cell_count_per_change": 72.2,
+    "cell_prop_control": 39.79,
+    "cell_prop_disease": 61.05
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 3063,
+    "cell_count_disease": 2728.0,
+    "cell_count_per_change": -10.94,
+    "cell_prop_control": 27.2,
+    "cell_prop_disease": 21.58
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2329,
+    "cell_count_disease": 222.0,
+    "cell_count_per_change": -90.47,
+    "cell_prop_control": 20.68,
+    "cell_prop_disease": 1.76
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "NK cell",
+    "cell_count_control": 1036,
+    "cell_count_disease": 556.0,
+    "cell_count_per_change": -46.33,
+    "cell_prop_control": 9.2,
+    "cell_prop_disease": 4.4
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "Others",
+    "cell_count_control": 41,
+    "cell_count_disease": 33.0,
+    "cell_count_per_change": -19.51,
+    "cell_prop_control": 0.36,
+    "cell_prop_disease": 0.26
+  },
+  {
+    "study_id": "VEXAS-GSE216548",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "T cell",
+    "cell_count_control": 7545,
+    "cell_count_disease": 10446.0,
+    "cell_count_per_change": 38.45,
+    "cell_prop_control": 66.99,
+    "cell_prop_disease": 82.62
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "B cell",
+    "cell_count_control": 312,
+    "cell_count_disease": 7283.0,
+    "cell_count_per_change": 2234.29,
+    "cell_prop_control": 2.77,
+    "cell_prop_disease": 34.19
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 4482,
+    "cell_count_disease": 2784.0,
+    "cell_count_per_change": -37.88,
+    "cell_prop_control": 39.79,
+    "cell_prop_disease": 13.07
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 3063,
+    "cell_count_disease": 3685.0,
+    "cell_count_per_change": 20.31,
+    "cell_prop_control": 27.2,
+    "cell_prop_disease": 17.3
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "Monocyte",
+    "cell_count_control": 2329,
+    "cell_count_disease": 5575.0,
+    "cell_count_per_change": 139.37,
+    "cell_prop_control": 20.68,
+    "cell_prop_disease": 26.17
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "NK cell",
+    "cell_count_control": 1036,
+    "cell_count_disease": 1947.0,
+    "cell_count_per_change": 87.93,
+    "cell_prop_control": 9.2,
+    "cell_prop_disease": 9.14
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "Others",
+    "cell_count_control": 41,
+    "cell_count_disease": 27.0,
+    "cell_count_per_change": -34.15,
+    "cell_prop_control": 0.36,
+    "cell_prop_disease": 0.13
+  },
+  {
+    "study_id": "VEXAS-like-GSE216548",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "T cell",
+    "cell_count_control": 7545,
+    "cell_count_disease": 6469.0,
+    "cell_count_per_change": -14.26,
+    "cell_prop_control": 66.99,
+    "cell_prop_disease": 30.37
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "B cell",
+    "cell_count_control": 523,
+    "cell_count_disease": 124.0,
+    "cell_count_per_change": -76.29,
+    "cell_prop_control": 3.34,
+    "cell_prop_disease": 0.41
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 467,
+    "cell_count_disease": 208.0,
+    "cell_count_per_change": -55.46,
+    "cell_prop_control": 2.98,
+    "cell_prop_disease": 0.69
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 1000,
+    "cell_count_disease": 2235.0,
+    "cell_count_per_change": 123.5,
+    "cell_prop_control": 6.39,
+    "cell_prop_disease": 7.45
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "Monocyte",
+    "cell_count_control": 12046,
+    "cell_count_disease": 26241.0,
+    "cell_count_per_change": 117.84,
+    "cell_prop_control": 76.95,
+    "cell_prop_disease": 87.48
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "NK cell",
+    "cell_count_control": 1521,
+    "cell_count_disease": 983.0,
+    "cell_count_per_change": -35.37,
+    "cell_prop_control": 9.72,
+    "cell_prop_disease": 3.28
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "Others",
+    "cell_count_control": 98,
+    "cell_count_disease": 207.0,
+    "cell_count_per_change": 111.22,
+    "cell_prop_control": 0.63,
+    "cell_prop_disease": 0.69
+  },
+  {
+    "study_id": "VKHD-GSE148020",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "T cell",
+    "cell_count_control": 467,
+    "cell_count_disease": 208.0,
+    "cell_count_per_change": -55.46,
+    "cell_prop_control": 2.98,
+    "cell_prop_disease": 0.69
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "B cell",
+    "cell_count_control": 4466,
+    "cell_count_disease": 4490.0,
+    "cell_count_per_change": 0.54,
+    "cell_prop_control": 8.02,
+    "cell_prop_disease": 6.17
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "CD4 T cell",
+    "cell_count_control": 19840,
+    "cell_count_disease": 20963.0,
+    "cell_count_per_change": 5.66,
+    "cell_prop_control": 35.62,
+    "cell_prop_disease": 28.82
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "CD8 T cell",
+    "cell_count_control": 10138,
+    "cell_count_disease": 11824.0,
+    "cell_count_per_change": 16.63,
+    "cell_prop_control": 18.2,
+    "cell_prop_disease": 16.26
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "Dendritic cell",
+    "cell_count_control": 506,
+    "cell_count_disease": 907.0,
+    "cell_count_per_change": 79.25,
+    "cell_prop_control": 0.91,
+    "cell_prop_disease": 1.25
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "Monocyte",
+    "cell_count_control": 10000,
+    "cell_count_disease": 12017.0,
+    "cell_count_per_change": 20.17,
+    "cell_prop_control": 17.95,
+    "cell_prop_disease": 16.52
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "NK cell",
+    "cell_count_control": 9381,
+    "cell_count_disease": 18794.0,
+    "cell_count_per_change": 100.34,
+    "cell_prop_control": 16.84,
+    "cell_prop_disease": 25.84
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "Others",
+    "cell_count_control": 1373,
+    "cell_count_disease": 3735.0,
+    "cell_count_per_change": 172.03,
+    "cell_prop_control": 2.46,
+    "cell_prop_disease": 5.14
+  },
+  {
+    "study_id": "Vit-GSE231794",
+    "study_name": "Vitiligo",
+    "cell_type": "T cell",
+    "cell_count_control": 29978,
+    "cell_count_disease": 32787.0,
+    "cell_count_per_change": 9.37,
+    "cell_prop_control": 53.82,
+    "cell_prop_disease": 45.08
+  }
+]

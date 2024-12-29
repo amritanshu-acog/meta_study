@@ -1,0 +1,170 @@
+[
+  {
+    "study_id": "BD-GSE198616",
+    "study_name": "Behçet’s disease",
+    "cell_type": "B cell",
+    "pValue": "0.05",
+    "log2fc": "1.2"
+  },
+  {
+    "study_id": "GT-GSE198617",
+    "study_name": "Gout",
+    "cell_type": "CD4 T cell",
+    "pValue": "0.03",
+    "log2fc": "-0.8"
+  },
+  {
+    "study_id": "MS-GSE198618",
+    "study_name": "MS",
+    "cell_type": "CD8 T cell",
+    "pValue": "0.001",
+    "log2fc": "2.1"
+  },
+  {
+    "study_id": "IDD-GSE198619",
+    "study_name": "Inflammatory demyelinating diseases",
+    "cell_type": "Dendritic cell",
+    "pValue": "0.02",
+    "log2fc": "0.5"
+  },
+  {
+    "study_id": "INS-GSE198620",
+    "study_name": "Idiopathic nephrotic syndrome",
+    "cell_type": "Monocyte",
+    "pValue": "0.04",
+    "log2fc": "0.9"
+  },
+  {
+    "study_id": "JDM-GSE198621",
+    "study_name": "JDM",
+    "cell_type": "NK cell",
+    "pValue": "0.01",
+    "log2fc": "-1.5"
+  },
+  {
+    "study_id": "KD-GSE198622",
+    "study_name": "KD",
+    "cell_type": "Other T cell",
+    "pValue": "0.07",
+    "log2fc": "0.3"
+  },
+  {
+    "study_id": "IVIg-GSE198623",
+    "study_name": "IVIg suppressed (KD)",
+    "cell_type": "Others",
+    "pValue": "0.005",
+    "log2fc": "1.7"
+  },
+  {
+    "study_id": "KD2-GSE198624",
+    "study_name": "KD 2",
+    "cell_type": "T cell",
+    "pValue": "0.06",
+    "log2fc": "-0.4"
+  },
+  {
+    "study_id": "MDS-GSE198625",
+    "study_name": "Myelodysplastic syndromes",
+    "cell_type": "Regulatory T cell",
+    "pValue": "0.002",
+    "log2fc": "2.5"
+  },
+  {
+    "study_id": "MG-GSE198626",
+    "study_name": "Myasthenia Gravis",
+    "cell_type": "B cell",
+    "pValue": "0.09",
+    "log2fc": "0.8"
+  },
+  {
+    "study_id": "MGSP-GSE198627",
+    "study_name": "Myasthenia gravis (seropositive)",
+    "cell_type": "CD4 T cell",
+    "pValue": "0.04",
+    "log2fc": "-1.0"
+  },
+  {
+    "study_id": "MGSN-GSE198628",
+    "study_name": "Myasthenia gravis (seronegative)",
+    "cell_type": "CD8 T cell",
+    "pValue": "0.0015",
+    "log2fc": "2.0"
+  },
+  {
+    "study_id": "MPA-GSE198629",
+    "study_name": "Microscopic Polyangiitis",
+    "cell_type": "Dendritic cell",
+    "pValue": "0.03",
+    "log2fc": "0.4"
+  },
+  {
+    "study_id": "MS2-GSE198630",
+    "study_name": "MS2",
+    "cell_type": "Monocyte",
+    "pValue": "0.07",
+    "log2fc": "-0.6"
+  },
+  {
+    "study_id": "SLE2-GSE198631",
+    "study_name": "SLE 2",
+    "cell_type": "NK cell",
+    "pValue": "0.005",
+    "log2fc": "1.1"
+  },
+  {
+    "study_id": "SLEA-GSE198632",
+    "study_name": "SLE(adult)",
+    "cell_type": "Other T cell",
+    "pValue": "0.02",
+    "log2fc": "-0.9"
+  },
+  {
+    "study_id": "SLEC-GSE198633",
+    "study_name": "SLE(children)",
+    "cell_type": "Others",
+    "pValue": "0.08",
+    "log2fc": "0.6"
+  },
+  {
+    "study_id": "SS-GSE198634",
+    "study_name": "Sjögren’s syndrome",
+    "cell_type": "T cell",
+    "pValue": "0.03",
+    "log2fc": "1.4"
+  },
+  {
+    "study_id": "SAR-GSE198635",
+    "study_name": "Sarcoidosis",
+    "cell_type": "Regulatory T cell",
+    "pValue": "0.006",
+    "log2fc": "2.7"
+  },
+  {
+    "study_id": "VEXAS-GSE198636",
+    "study_name": "VEXAS syndrome",
+    "cell_type": "B cell",
+    "pValue": "0.04",
+    "log2fc": "-0.2"
+  },
+  {
+    "study_id": "VEXASL-GSE198637",
+    "study_name": "VEXAS-like syndrome",
+    "cell_type": "CD4 T cell",
+    "pValue": "0.0012",
+    "log2fc": "2.3"
+  },
+  {
+    "study_id": "VKH-GSE198638",
+    "study_name": "Vogt-Koyanagi-Harada",
+    "cell_type": "CD8 T cell",
+    "pValue": "0.003",
+    "log2fc": "-1.1"
+  },
+  {
+    "study_id": "VIT-GSE198639",
+    "study_name": "Vitiligo",
+    "cell_type": "Dendritic cell",
+    "pValue": "0.05",
+    "log2fc": "0.7"
+  }
+]

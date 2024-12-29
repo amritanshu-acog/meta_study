@@ -1,0 +1,377 @@
+// App.jsx
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
+import ExplorerPage from "./pages/explorer/ExplorerPage";
+import HomePage from "./pages/home/HomePage";
+
+// Create a client with default options
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000, // Data stays fresh for 5 minutes
+      cacheTime: 10 * 60 * 1000, // Cache persists for 10 minutes
+      refetchOnWindowFocus: false,
+      retry: 1,
+    },
+  },
+});
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<HomePage />} />
+      </Route>
+      <Route path="explorer" element={<ExplorerPage />} />
+    </Route>
+  ),
+  {
+    future: {
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+      v7_fetcherPersist: true,
+    },
+  }
+);
+
+function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
+  );
+}
+
+export default App;
+
+// hooks/useExplorerQueries.js
+import { useQuery, useQueryClient } from '@tanstack/react-query';
+
+// API functions - replace these with your actual API calls
+const fetchCellProportionData = async (params) => {
+  const response = await fetch('/api/cell-proportion', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(params),
+  });
+  if (!response.ok) throw new Error('Network response was not ok');
+  return response.json();
+};
+
+// Similar functions for other endpoints
+const fetchGeneExpressionData = async (params) => {
+  // Your actual API call
+  return Promise.resolve({ data: 'Gene Expression Data' });
+};
+
+const fetchDGEData = async (params) => {
+  // Your actual API call
+  return Promise.resolve({ data: 'DGE Analysis Data' });
+};
+
+const fetchEnrichmentData = async (params) => {
+  // Your actual API call
+  return Promise.resolve({ data: 'Enrichment Data' });
+};
+
+export const useExplorerQueries = (activeComponent, params = {}) => {
+  const queryClient = useQueryClient();
+
+  // Define queries
+  const cellProportionQuery = useQuery({
+    queryKey: ['cellProportion', params],
+    queryFn: () => fetchCellProportionData(params),
+    enabled: activeComponent === 'cellProportion',
+  });
+
+  const geneExpressionQuery = useQuery({
+    queryKey: ['geneExpression', params],
+    queryFn: () => fetchGeneExpressionData(params),
+    enabled: activeComponent === 'geneExpression',
+  });
+
+  const dgeAnalysisQuery = useQuery({
+    queryKey: ['dgeAnalysis', params],
+    queryFn: () => fetchDGEData(params),
+    enabled: activeComponent === 'dgeAnalysis',
+  });
+
+  const enrichmentAnalysisQuery = useQuery({
+    queryKey: ['enrichmentAnalysis', params],
+    queryFn: () => fetchEnrichmentData(params),
+    enabled: activeComponent === 'enrichmentAnalysis',
+  });
+
+  // Prefetch function
+  const prefetchData = (componentId) => {
+    const fetchFunctions = {
+      cellProportion: fetchCellProportionData,
+      geneExpression: fetchGeneExpressionData,
+      dgeAnalysis: fetchDGEData,
+      enrichmentAnalysis: fetchEnrichmentData,
+    };
+
+    queryClient.prefetchQuery({
+      queryKey: [componentId, params],
+      queryFn: () => fetchFunctions[componentId](params),
+    });
+  };
+
+  return {
+    queries: {
+      cellProportion: cellProportionQuery,
+      geneExpression: geneExpressionQuery,
+      dgeAnalysis: dgeAnalysisQuery,
+      enrichmentAnalysis: enrichmentAnalysisQuery,
+    },
+    prefetchData,
+  };
+};
+
+// pages/explorer/ExplorerPage.jsx
+import React, { useState, useEffect } from "react";
+import { Box } from "@chakra-ui/react";
+import ExplorerNavbar from "../../components/ExplorerNavbar";
+import CellPropPage from "./CellPropPage";
+import DgeAnalysisNew from "./DgeAnalysisNew";
+import EnrichmentAnalysis from "./EnrichmentAnalysis";
+import GeneExpressionPage from "./GeneExpressionPage";
+import { useExplorerQueries } from "../../hooks/useExplorerQueries";
+
+const ExplorerPage = () => {
+  const initialComponent = sessionStorage.getItem("activeComponent") || "cellProportion";
+  const [activeComponent, setActiveComponent] = useState(initialComponent);
+  const [params, setParams] = useState({
+    // Add your common parameters here
+    // Example: sampleId: "default",
+  });
+
+  const { queries, prefetchData } = useExplorerQueries(activeComponent, params);
+
+  useEffect(() => {
+    sessionStorage.setItem("activeComponent", activeComponent);
+  }, [activeComponent]);
+
+  const handleComponentChange = (componentId) => {
+    setActiveComponent(componentId);
+  };
+
+  return (
+    <Box>
+      <ExplorerNavbar
+        activeComponent={activeComponent}
+        setActiveComponent={handleComponentChange}
+        onHover={prefetchData}
+      />
+      <Box>
+        <Box display={activeComponent === "cellProportion" ? "block" : "none"}>
+          <CellPropPage 
+            setActiveComponent={setActiveComponent}
+            query={queries.cellProportion}
+            setParams={setParams}
+          />
+        </Box>
+        <Box display={activeComponent === "geneExpression" ? "block" : "none"}>
+          <GeneExpressionPage 
+            query={queries.geneExpression}
+            setParams={setParams}
+          />
+        </Box>
+        <Box display={activeComponent === "dgeAnalysis" ? "block" : "none"}>
+          <DgeAnalysisNew 
+            setActiveComponent={setActiveComponent}
+            query={queries.dgeAnalysis}
+            setParams={setParams}
+          />
+        </Box>
+        <Box display={activeComponent === "enrichmentAnalysis" ? "block" : "none"}>
+          <EnrichmentAnalysis 
+            query={queries.enrichmentAnalysis}
+            setParams={setParams}
+          />
+        </Box>
+      </Box>
+    </Box>
+  );
+};
+
+export default ExplorerPage;
+
+// components/ExplorerNavbar.jsx
+import React from "react";
+import { HStack, Flex, Button } from "@chakra-ui/react";
+import { FaChartBar, FaDna, FaFlask } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import distillLogo from "../assets/distill-logo.svg";
+import { FaChartSimple } from "react-icons/fa6";
+
+const ExplorerNavbar = ({ activeComponent, setActiveComponent, onHover }) => {
+  const navItems = [
+    { name: "Cell Proportion", id: "cellProportion", icon: <FaChartBar /> },
+    { name: "Gene Expression", id: "geneExpression", icon: <FaChartSimple /> },
+    { name: "DGE Analysis", id: "dgeAnalysis", icon: <FaDna /> },
+    { name: "Enrichment Analysis", id: "enrichmentAnalysis", icon: <FaFlask /> },
+  ];
+
+  return (
+    <HStack
+      borderBottom="1px dotted #d9d9d9"
+      px="40px"
+      py="20px"
+      justifyContent="space-between"
+      alignItems="center"
+      width="100%"
+      bg="white"
+    >
+      <Flex alignItems="center">
+        <NavLink to="/">
+          <img src={distillLogo} alt="Logo" style={{ width: "220px" }} />
+        </NavLink>
+      </Flex>
+      <Flex borderRadius="20px" align="center" justify="center">
+        {navItems.map((item) => (
+          <Button
+            key={item.id}
+            onClick={() => setActiveComponent(item.id)}
+            onMouseEnter={() => onHover(item.id)}
+            bg={activeComponent === item.id ? "#e0eafc" : "#f5f7fa"}
+            border={activeComponent === item.id && "1px solid rgba(0,0,255,0.15)"}
+            _hover={{ bg: "#d0ddef" }}
+            _active={{ bg: "#c0cde0" }}
+            _focus={{ outline: "none" }}
+            mx="10px"
+            borderRadius="md"
+            fontSize="15px"
+            fontWeight="light"
+            transition="background-color 0.2s"
+            color="black"
+            leftIcon={React.cloneElement(item.icon, {
+              color: "#4F4F4F",
+              size: "1em",
+            })}
+          >
+            {item.name}
+          </Button>
+        ))}
+      </Flex>
+    </HStack>
+  );
+};
+
+export default ExplorerNavbar;
+
+// First, modify App.jsx to add QueryClientProvider
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
+import ExplorerPage from "./pages/explorer/ExplorerPage";
+import HomePage from "./pages/home/HomePage";
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000, // 5 minutes
+      cacheTime: 30 * 60 * 1000, // 30 minutes
+      refetchOnWindowFocus: false,
+    },
+  },
+});
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<HomePage />} />
+      </Route>
+      <Route path="explorer" element={<ExplorerPage />} />
+    </Route>
+  ),
+  {
+    future: {
+      v7_startTransition: true,
+      v7_relativeSplatPath: true,
+      v7_fetcherPersist: true,
+    },
+  }
+);
+
+function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+      <ReactQueryDevtools initialIsOpen={false} />
+    </QueryClientProvider>
+  );
+}
+
+export default App;
+
+// In your individual page components, add React Query
+// Example for CellPropPage.jsx
+import { useQuery } from '@tanstack/react-query';
+
+const CellPropPage = ({ setActiveComponent }) => {
+  const { data, isLoading } = useQuery({
+    queryKey: ['cellProportion', /* any parameters you use */],
+    queryFn: () => fetch('/your-api-endpoint').then(res => res.json()),
+    // The data will be cached based on the queryKey
+  });
+
+  // Your existing component code here
+  return (
+    // Your existing JSX
+  );
+};
+
+// Example for GeneExpressionPage.jsx
+const GeneExpressionPage = () => {
+  const { data, isLoading } = useQuery({
+    queryKey: ['geneExpression', /* any parameters you use */],
+    queryFn: () => fetch('/your-gene-expression-endpoint').then(res => res.json()),
+  });
+
+  // Your existing component code here
+  return (
+    // Your existing JSX
+  );
+};
+
+// Example for DgeAnalysisNew.jsx
+const DgeAnalysisNew = ({ setActiveComponent }) => {
+  const { data, isLoading } = useQuery({
+    queryKey: ['dgeAnalysis', /* any parameters you use */],
+    queryFn: () => fetch('/your-dge-endpoint').then(res => res.json()),
+  });
+
+  // Your existing component code here
+  return (
+    // Your existing JSX
+  );
+};
+
+// Example for EnrichmentAnalysis.jsx
+const EnrichmentAnalysis = () => {
+  const { data, isLoading } = useQuery({
+    queryKey: ['enrichmentAnalysis', /* any parameters you use */],
+    queryFn: () => fetch('/your-enrichment-endpoint').then(res => res.json()),
+  });
+
+  // Your existing component code here
+  return (
+    // Your existing JSX
+  );
+};
