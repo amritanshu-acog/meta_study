@@ -1,0 +1,200 @@
+useEffect(() => {
+  const fetchAndProcessData = async () => {
+    if (!selectedBaseStudy) {
+      setFilteredData([]);
+      setShowPlot(false);
+      return;
+    }
+
+    // Avoid re-fetch if configuration hasn't changed
+    if (
+      lastFetchedConfig.current.baseStudy === selectedBaseStudy &&
+      JSON.stringify(lastFetchedConfig.current.filters) ===
+        JSON.stringify(filters)
+    ) {
+      console.log("No changes; using cached data.");
+      setShowPlot(true);
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      // Fetch all study data
+      const studiesToFetch = [selectedBaseStudy, ...Object.keys(filters)];
+      const fetchPromises = studiesToFetch.map((study) =>
+        fetch(`/studies/${study}.json`).then((res) => res.json())
+      );
+      const studiesData = await Promise.all(fetchPromises);
+      const allStudiesData = Object.fromEntries(
+        studiesToFetch.map((study, i) => [study, studiesData[i]])
+      );
+
+      const baseStudyData = allStudiesData[selectedBaseStudy];
+      const mustStudyData = [];
+      const notStudyData = [];
+      const maybeStudyData = [];
+
+      // Organize studies by filter type
+      Object.keys(filters).forEach((study) => {
+        const studyData = allStudiesData[study];
+        if (filters[study] === "Must") {
+          mustStudyData.push(...studyData);
+        } else if (filters[study] === "Not") {
+          notStudyData.push(...studyData);
+        } else if (filters[study] === "Maybe") {
+          maybeStudyData.push(...studyData);
+        }
+      });
+
+      // Process base study data
+      const combinedData = baseStudyData.map((baseDataPoint) => {
+        // Exact matches
+        const exactMatchMust = mustStudyData.some(
+          (mustPoint) =>
+            mustPoint.gene === baseDataPoint.gene &&
+            mustPoint.log2FoldChange === baseDataPoint.log2FoldChange &&
+            mustPoint.pvalue === baseDataPoint.pvalue
+        );
+        const exactMatchNot = notStudyData.some(
+          (notPoint) =>
+            notPoint.gene === baseDataPoint.gene &&
+            notPoint.log2FoldChange === baseDataPoint.log2FoldChange &&
+            notPoint.pvalue === baseDataPoint.pvalue
+        );
+
+        // Gene-only matches
+        const overlayMust = mustStudyData.some(
+          (mustPoint) => mustPoint.gene === baseDataPoint.gene
+        );
+        const overlayNot = notStudyData.some(
+          (notPoint) => notPoint.gene === baseDataPoint.gene
+        );
+
+        // Determine type
+        let type = "base";
+        if (exactMatchMust && !exactMatchNot) type = "overlap_must";
+        else if (exactMatchNot && !exactMatchMust) type = "overlap_not";
+        else if (overlayMust && !exactMatchMust) type = "overlay_must";
+        else if (overlayNot && !exactMatchNot) type = "overlay_not";
+
+        return { ...baseDataPoint, type };
+      });
+
+      // Add overlay genes not in the base study
+      const overlayGenes = [...mustStudyData, ...notStudyData].filter(
+        (dataPoint) =>
+          !baseStudyData.some((basePoint) => basePoint.gene === dataPoint.gene)
+      );
+
+      const overlayData = overlayGenes.map((dataPoint) => {
+        let type = "overlay";
+        if (mustStudyData.some((mustPoint) => mustPoint.gene === dataPoint.gene))
+          type = "overlay_must";
+        if (notStudyData.some((notPoint) => notPoint.gene === dataPoint.gene))
+          type = "overlay_not";
+
+        return { ...dataPoint, type };
+      });
+
+      // Merge data
+      const finalData = [...combinedData, ...overlayData];
+
+      // Save results
+      lastFetchedConfig.current = { baseStudy: selectedBaseStudy, filters };
+      setFilteredData(finalData);
+      setShowPlot(true);
+    } catch (error) {
+      console.error("Error fetching or processing data:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  fetchAndProcessData();
+}, [selectedBaseStudy, filters]);
+
+
+final data to be passed to main
+
+  { gene: "GeneA", log2FoldChange: 2.5, pvalue: 0.01, type: "base" }, //color based on threshold blue and red
+  { gene: "GeneB", log2FoldChange: -1.2, pvalue: 0.05, type: "base" },
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02, type: "base" },
+  { gene: "GeneD", log2FoldChange: 1.5, pvalue: 0.03, type: "base" },
+  { gene: "GeneE", log2FoldChange: -0.8, pvalue: 0.04, type: "base" },
+  { gene: "GeneA", log2FoldChange: 2.5, pvalue: 0.01, type: overlap_overlay }, // color yellow dots but border 
+    is red or blue according to the threshold
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02, type: overlap_overlay },  // color yellow dots but border 
+    is red or blue according to the threshold. +ve then red-meaning on the right side, -ve then blue meaing on left(log2fc) 
+  { gene: "GeneA", log2FoldChange: 2.15, pvalue: 0.012, type: overlay }, //color yellow dots
+  { gene: "GeneD", log2FoldChange: 1.0, pvalue: 0.1, type: overlay }, //color yellow dots
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02, type: overlap_overlay },  // color yellow dots but border 
+    is red or blue according to the threshold
+  { gene: "GeneE", log2FoldChange: -0.8, pvalue: 0.09, type: overlay }, //color yellow dots
+
+
+
+const Study1 = [  //base study
+  { gene: "GeneA", log2FoldChange: 2.5, pvalue: 0.01 },
+  { gene: "GeneB", log2FoldChange: -1.2, pvalue: 0.05 },
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02 },
+  { gene: "GeneD", log2FoldChange: 1.5, pvalue: 0.03 },
+  { gene: "GeneE", log2FoldChange: -0.8, pvalue: 0.04 },
+];
+
+const Study2 = [ //must
+  { gene: "GeneA", log2FoldChange: 2.5, pvalue: 0.01 }, // Matches GeneA in Study1
+  { gene: "GeneF", log2FoldChange: 1.3, pvalue: 0.03 },
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02 }, // Matches GeneC in Study1
+  { gene: "GeneG", log2FoldChange: -0.5, pvalue: 0.04 },
+  { gene: "GeneH", log2FoldChange: 0.9, pvalue: 0.02 },
+];
+
+const Study3 = [  //must
+  { gene: "GeneA", log2FoldChange: 2.15, pvalue: 0.012 },
+  { gene: "GeneD", log2FoldChange: 1.0, pvalue: 0.1 }, // Matches GeneD in Study1
+  { gene: "GeneI", log2FoldChange: -1.1, pvalue: 0.06 },
+  { gene: "GeneJ", log2FoldChange: 1.7, pvalue: 0.02 },
+  { gene: "GeneK", log2FoldChange: 2.3, pvalue: 0.04 },
+  { gene: "GeneL", log2FoldChange: -0.4, pvalue: 0.03 },
+];
+
+const Study4 = [ //maybe
+  { gene: "GeneB", log2FoldChange: -1.2, pvalue: 0.05 }, // Matches GeneB in Study1
+  { gene: "GeneM", log2FoldChange: 3.5, pvalue: 0.02 },
+  { gene: "GeneE", log2FoldChange: 3.0, pvalue: 0.001 }, // Matches GeneE in Study1
+  { gene: "GeneN", log2FoldChange: -2.0, pvalue: 0.05 },
+  { gene: "GeneO", log2FoldChange: 1.2, pvalue: 0.01 },
+];
+
+const Study5 = [ //not
+  { gene: "GeneE", log2FoldChange: -0.8, pvalue: 0.09 },
+  { gene: "GeneP", log2FoldChange: -0.8, pvalue: 0.02 },
+  { gene: "GeneQ", log2FoldChange: 2.8, pvalue: 0.001 },
+  { gene: "GeneC", log2FoldChange: 0.7, pvalue: 0.02 }, // Matches GeneC in Study1
+  { gene: "GeneR", log2FoldChange: -1.4, pvalue: 0.06 },
+  { gene: "GeneS", log2FoldChange: 0.5, pvalue: 0.03 },
+];
+
+JD- base
+KD- must 
+
+pvaluethreshold = 1
+log2fcthreshold = 1
+
+kd.forEach(kGene => {
+    jd.forEach(jGene => {
+        if (kGene.gene === jGene.gene)
+        {
+            const sameSign = (jGene.log2fc > 0 && kGene.log2fc > 0) || (jGene.log2fc < 0 && kGene.log2fc < 0)
+
+            const log2fcThresholdCheck = (jGene.log2fc > log2fcthreshold && kGene.log2fc > log2fcthreshold)
+            const pvalueThresholdCheck = jGene.pvalue < pvaluethreshold && kGene.pvalue < pvaluethreshold
+
+            if (sameSign && log2fcThresholdCheck && pvalueThresholdCheck) {
+                kGene.type = "overlap"
+            }
+        }
+    })
+})
+

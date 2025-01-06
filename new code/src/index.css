@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+:root {
+  --primary-color: #3182ce;
+}
+
+.custom-header {
+  font-weight: bold;
+  /* color: white !important; */
+  /* background-color: #006b98;  */
+}
+
+.centered-header {
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  text-align: center !important; /* Important to override any default alignment */
+}
+
+.ag-theme-alpine .ag-header-cell-label {
+  color: white !important; /* Ensure all header text and icons are white */
+}
+
+.ag-theme-alpine .ag-header {
+  background-color: #006b98; /* Dark blue background */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ag-theme-alpine .ag-header-cell {
+  border-right: none; /* Optional: Remove right border for cleaner look */
+}
+
+.ag-theme-alpine .ag-header-cell-label .ag-icon {
+  fill: white !important; /* Ensure filter icon is white as well */
+}
+
+.ag-theme-alpine .ag-row {
+  border-bottom: none; /* Remove row separation lines */
+}
+
+.ag-theme-alpine .ag-icon-filter:before {
+  color: #ffffff;
+}
+
+.ag-theme-quartz .ag-header-cell-label {
+  white-space: normal !important; /* Allow wrapping */
+  text-align: center; /* Optional: center align the text */
+}
